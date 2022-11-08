@@ -1,0 +1,15 @@
+{
+  "name": "Algo-Exo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^29.3.0"
+  },
+  "dependencies": {
+    "babel-jest": "^29.3.0"
+  }
+}
