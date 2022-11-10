@@ -1,2 +1,2 @@
 # Algo-Exo
-Just some algo exercises in javascript
+Just some algo exercises and code snippets in javascript
