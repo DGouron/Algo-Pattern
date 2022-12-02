@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {*} array
+ * @param {*} accumulator
+ * @returns
+ */
 const reducer = (array, accumulator) => {
   if (array.length === 0) {
     return accumulator;

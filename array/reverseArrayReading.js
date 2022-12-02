@@ -1,3 +1,8 @@
+/**
+ *
+ * @param {Array} arrayToRead
+ * @returns {Array}
+ */
 const reverseArrayReading = (arrayToRead) => {
   let newArray = [];
   for (let i = arrayToRead.length - 1; i >= 0; i--) {
@@ -6,6 +11,11 @@ const reverseArrayReading = (arrayToRead) => {
   return newArray;
 };
 
+/**
+ *
+ * @param {Array} arrayToRead
+ * @returns {Array}
+ */
 const reverseArrayReadingWithForOf = (arrayToRead) => {
   let newArray = [];
   for (let element of arrayToRead) {
@@ -14,6 +24,11 @@ const reverseArrayReadingWithForOf = (arrayToRead) => {
   return newArray;
 };
 
+/**
+ *
+ * @param {Array} arrayToRead
+ * @returns {Array}
+ */
 const reverseArrayReadingWithWhile = (arrayToRead) => {
   let newArray = [];
   let i = arrayToRead.length - 1;
@@ -24,6 +39,11 @@ const reverseArrayReadingWithWhile = (arrayToRead) => {
   return newArray;
 };
 
+/**
+ *
+ * @param {Array} arrayToRead
+ * @returns {Array}
+ */
 const reverseArrayReadingWithReduce = (arrayToRead) => {
   let newArray = [];
   arrayToRead.reduce((accumulator, element) => {
@@ -32,6 +52,11 @@ const reverseArrayReadingWithReduce = (arrayToRead) => {
   return newArray;
 };
 
+/**
+ *
+ * @param {Array} arrayToRead
+ * @returns {Array}
+ */
 const reverseArrayReadingWithEntries = (arrayToRead) => {
   let newArray = [];
   for (let [index, element] of arrayToRead.entries()) {

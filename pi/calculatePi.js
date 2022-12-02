@@ -1,14 +1,24 @@
-const calculatePi = (n) => {
+/**
+ *
+ * @param {Number} numberOfDecimal
+ * @returns {Number}
+ */
+const calculatePi = (numberOfIteration) => {
   let pi = 0;
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < numberOfDecimal; i++) {
     pi += (4 * Math.pow(-1, i)) / (2 * i + 1);
   }
   return pi;
 };
 
-const calculatePiWithReducer = (n) => {
+/**
+ *
+ * @param {Number} numberOfDecimal
+ * @returns {Number}
+ */
+const calculatePiWithReducer = (numberOfIteration) => {
   let pi = 0;
-  Array(n)
+  Array(numberOfIteration)
     .fill(0)
     .reduce((accumulator, element, index) => {
       pi += (4 * Math.pow(-1, index)) / (2 * index + 1);

@@ -1,5 +1,11 @@
 //Find the nearest number in the array to the given value
 
+/**
+ *
+ * @param {Number} valueToFind
+ * @param {Array} arrayOfNumber
+ * @returns {Number || undefined}
+ */
 const nearestNumberWithForOf = (valueToFind, arrayOfNumber) => {
   if (!arrayOfNumber) {
     return undefined;

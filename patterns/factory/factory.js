@@ -1,5 +1,10 @@
 //https://refactoring.guru/design-patterns/factory-method
 
+/**
+ *
+ * @param {String} type
+ * @returns {Object}
+ */
 function factory(type) {
   if (type === "car") {
     return new Car();
