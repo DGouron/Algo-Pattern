@@ -1,11 +1,11 @@
 /**
  *
- * @param {Number} numberOfDecimal
+ * @param {Number} numberOfIteration
  * @returns {Number}
  */
 const calculatePi = (numberOfIteration) => {
   let pi = 0;
-  for (let i = 0; i < numberOfDecimal; i++) {
+  for (let i = 0; i < numberOfIteration; i++) {
     pi += (4 * Math.pow(-1, i)) / (2 * i + 1);
   }
   return pi;
@@ -13,7 +13,7 @@ const calculatePi = (numberOfIteration) => {
 
 /**
  *
- * @param {Number} numberOfDecimal
+ * @param {Number} numberOfIteration
  * @returns {Number}
  */
 const calculatePiWithReducer = (numberOfIteration) => {
