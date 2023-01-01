@@ -1,5 +1,5 @@
-# Algo-Exo
-Just some algo exercises and code snippets in javascript.
+# Algo-Pattern
+Just some algo, pattern and code snippets in javascript.
 Feel free to clone it and use it. :)
 
 # Issues
