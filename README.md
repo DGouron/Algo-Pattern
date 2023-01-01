@@ -17,4 +17,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 # Contributors
 
 - **Damien Gouron** - _Initial work_ - [Portfolio](https://dgouron.fr/)
-- **Amélie Benoit** - _Contributor_ - [Twitter](https://twitter.com/AmelieBenoit33/)
+- **Amélie Benoit** - _Illustration_ - [Twitter](https://twitter.com/AmelieBenoit33/)
