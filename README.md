@@ -1,3 +1,6 @@
+<div>
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/DGouron/Algo-Pattern?style=flat-square">
+</div>
 # Algo-Pattern
 
 Just some algo, pattern and code snippets in javascript. :)
